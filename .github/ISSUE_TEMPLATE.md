@@ -1,6 +1,6 @@
 ---
 title: My important Issue
-assignees: brycehartley
+assignees: lupine86
 labels: sales-dev-collab
 ---
 My new Issue!
