@@ -5,13 +5,13 @@ name: CI
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  # push:
-  #  branches: [ master ]
+   push:
+    branches: [ master ]
   # pull_request:
   #  branches: [ master ]
   # schedule issue to be created At 18:00 on every day-of-week from Monday through Friday
-    schedule:
-      - cron: '0 18 * * 1-5'
+  #  schedule:
+  #    - cron: '0 18 * * 1-5'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
